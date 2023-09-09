@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My  Portfolio</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -19,7 +19,7 @@
             <nav class="navbar">
                 <img id="logo" src="data/images/logo.png" alt="logo">
                 <ul>
-                    <li ><a href="#">Home</a> </li>
+                    <li><a href="#">Home</a> </li>
                     <li id="col"><a href="#">Services</a> </li>
                     <li><a href="#">Portfolio</a> </li>
                     <li><a href="#">Contact</a> </li>
@@ -43,9 +43,11 @@
                     <img src="data/images/user.png" alt="">
                 </div>
                 <div class="about-col-2">
-                    <h1 id="sub-title" >About me</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quis consequatur blanditiis ad quisquam, sapiente repellat atque eligendi magni veniam maiores sint voluptatem dolor aut molestiae cupiditate alias sed vero!</p>
-                    
+                    <h1 id="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quis consequatur blanditiis ad
+                        quisquam, sapiente repellat atque eligendi magni veniam maiores sint voluptatem dolor aut
+                        molestiae cupiditate alias sed vero!</p>
+
                     <div class="tab-title">
                         <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
@@ -84,9 +86,27 @@
 
     <div id="Services">
         <div class="container">
-            <h1 id="sub-title" >My Services</h1>
+            <h1 id="sub-title">My Services</h1>
             <div class="services-list">
-                
+                <h2>Web Design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Delectus eveniet magni unde porro, tempora maxime fuga!</p>
+                <a href="#">learn more</a>
+
+            </div>
+            <div class="services-list">
+                <h2>UI/UX</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Delectus eveniet magni unde porro, tempora maxime fuga!</p>
+                <a href="#">learn more</a>
+
+            </div>
+            <div class="services-list">
+                <h2>App Design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Delectus eveniet magni unde porro, tempora maxime fuga!</p>
+                <a href="#">learn more</a>
+
             </div>
 
         </div>
@@ -103,16 +123,16 @@
         var tabcontents = document.getElementsByClassName("tab-contents");
 
         function opentab(tabname) {
-            for(tablink of tablinks){
+            for (tablink of tablinks) {
                 tablink.classList.remove("active-link");
             }
-            for(tabcontent of tabcontents){
+            for (tabcontent of tabcontents) {
                 tabcontent.classList.remove("active-tab");
             }
 
             event.currentTarget.classList.add("active-link")
             document.getElementById(tabname).classList.add("active-tab")
-            
+
         }
 
     </script>
@@ -120,4 +140,5 @@
 
 
 </body>
+
 </html>
