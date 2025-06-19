@@ -4,41 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Pawan Kumar | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/c821f540e3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
     <!-- ================HEADER======================= -->
     <div id="header">
         <div class="container">
-
-            <!-- Navigaton -->
-
             <nav class="navbar">
                 <img id="logo" src="data/images/logo.png" alt="logo">
                 <ul id="sidemenu">
-                    <li><a href="#header">Home</a> </li>
-                    <li id="col"><a href="#Services">Services</a> </li>
-                    <li><a href="#protfolio">Portfolio</a> </li>
-                    <li><a href="#contact">Contact</a> </li>
-                    <li><a href="#about">About</a> </li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
                     <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
                 <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
-            <!--        END  Navigaton     -->
             <div class="header-text">
-                <p>UI/UX Designer</p>
-                <h1>Hi, I'm <span>Pawan </span> <br>Kumar from Bharat</h1>
+                <p>Backend Developer | Python Enthusiast</p>
+                <h1>Hi, I'm <span>Pawan</span><br>Kumar from INDIA</h1>
             </div>
         </div>
     </div>
 
-    <!--       ============ABOUT============        -->
-
+    <!-- ============ABOUT============ -->
     <div id="about">
         <div class="container">
             <div class="row">
@@ -46,43 +40,43 @@
                     <img src="data/images/user.png" alt="">
                 </div>
                 <div class="about-col-2">
-                    <h1 id="sub-title">About me</h1>
-                    <p> 
-                        <br>Hello, I'm Pawan Kumar ! <br> <br>
-                        
-                        I'm currently pursuing my Master's in Computer Applications (MCA) at Noida Institute of Engineering and Technology. I have a strong interest in web design, where I use HTML and CSS to create visually appealing and user-friendly websites. I'm also exploring and design Android Applications. <br> <br>
-                        
-                        While I'm in the early stages of learning Python and Java, I'm eager to add interactivity to my projects. I love challenges and am always looking for new opportunities to collaborate and learn. <br> <br>
-                        
-                        Feel free to explore my portfolio to see some of the projects I've worked on. If you'd like to connect or have a project idea, please don't hesitate to get in touch. Let's create something great together!
-                        </p>
+                    <h1 id="sub-title">About Me</h1>
+                    <p>
+                        Hello, I'm Pawan Kumar!<br><br>
+                        I recently completed my MCA from Noida Institute of Engineering and Technology. My core expertise lies in Python, Django, FastAPI, RESTful APIs, and building scalable backend systems. I've worked on projects involving e-commerce platforms, delivery systems, dashboards, and data analytics.<br><br>
+                        I'm an enthusiastic learner who loves solving real-world problems and collaborating on impactful software solutions. Let's connect and build something meaningful!
+                    </p>
 
                     <div class="tab-title">
-                        <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
                         <p class="tab-links" onclick="opentab('education')">Education</p>
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
-                            <li><span>Web Development</span><br>Designing Web interfaces</li>
-                            <li><span>App Development</span><br>Designing App interfaces</li>
+                            <li><span>Backend</span><br>Python, Django, FastAPI, DRF</li>
+                            <li><span>Frontend</span><br>HTML, CSS, JS (Basic)</li>
+                            <li><span>Database</span><br>SQLite, PostgreSQL, MongoDB</li>
+                            <li><span>Tools</span><br>Git, GitHub, Postman, Docker (Basics)</li>
                         </ul>
                     </div>
 
-                    <div class="tab-contents" id="experience">
+                   <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>2022 - Current</span> <br>Web Development<br>Designing Web/App interfaces</li>
-                            <li><span>2021 - 2022</span><br>App Development <br>Designing Web/App interfaces</li>
+                            <li><span>Feb 2025 - Apr 2025</span><br>Python Developer Intern at Infosys Springboard<br>Built AI-powered restaurant delivery system with Flask, RBAC, and real-time features</li>
+                            <li><span>Dec 2023 - Feb 2024</span><br>Built E-commerce Cart System using Django & SQLite</li>
+                            <li><span>Jan 2024 - Mar 2024</span><br>Developed FastAPI Sales Analytics App<br>Enabled CSV uploads, REST APIs, and analytical endpoints for sales trends</li>
+                            <li><span>Oct 2023 - Nov 2023</span><br>Created Data Processing & Visualization Project<br>Utilized Pandas and Plotly Dash to generate insights from datasets</li>
+                            <li><span>Jul 2023 - Sep 2023</span><br>Role-Based Access Control (RBAC) App in Django<br>Implemented secure user management and access logic for multi-role systems</li>
                         </ul>
                     </div>
 
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>2022 - 2024</span><br>MCA</li>
-                            <li><span>2019 - 2022</span><br>BCA</li>
-                            <li><span>2017 - 2019</span><br>Intermediate Science</li>
-                            <li><span>2017</span><br>Matriculations</li>
+                            <li><span>2022 - 2024</span><br>MCA - NIET</li>
+                            <li><span>2019 - 2022</span><br>BCA - VBU Hazaribagh</li>
+                            <li><span>2017 - 2019</span><br>Intermediate - Science</li>
+                            <li><span>2017</span><br>Matriculation</li>
                         </ul>
                     </div>
 
@@ -92,101 +86,88 @@
     </div>
 
     <!-- ============Services============== -->
-
     <div id="Services">
         <div class="container">
             <h1 id="sub-title">My Services</h1>
             <div class="services-list">
                 <div>
                     <i class="fa-solid fa-code"></i>
-                    <h2>Web Design</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Delectus eveniet magni unde porro, tempora maxime fuga!</p>
+                    <h2>Web Backend</h2>
+                    <p>Custom API development using Django, FastAPI, and Flask with secure integrations.</p>
                     <a href="#">learn more</a>
                 </div>
 
                 <div>
-                    <i class="fa-solid fa-crop-simple"></i>
-                    <h2>UI/UX</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Delectus eveniet magni unde porro, tempora maxime fuga!</p>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data Handling</h2>
+                    <p>Database design, analytics, and visualization using Pandas, SQLite, and Plotly.</p>
                     <a href="#">learn more</a>
                 </div>
                 <div>
-                    <i class="fa-brands fa-app-store-ios"></i>
-                    <h2>App Design</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Delectus eveniet magni unde porro, tempora maxime fuga!</p>
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h2>Authentication & RBAC</h2>
+                    <p>Secure role-based access systems for admin, customer, and service-level control.</p>
                     <a href="#">learn more</a>
                 </div>
             </div>
         </div>
     </div>
 
-
     <!-- ------------Portfolio------------ -->
-
-    <div id="protfolio">
+    <div id="portfolio">
         <div class="container">
             <h1 id="sub-title">My Work</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="data/images/work-1.png" alt="image">
+                    <img src="data/images/work-1.png" alt="work">
                     <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>The App connects youto the talented people around the world.
-                            Download it from play store.</p>
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        <h3>HiFi Delivery Eats</h3>
+                        <p>AI-powered restaurant platform using Flask, RBAC, and real-time tracking (Infosys Internship).</p>
+                        <a href="https://github.com/Pawanverma9660/HIFIDelivery" target="_blank"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="data/images/work-2.png" alt="image">
+                    <img src="data/images/work-2.png" alt="work">
                     <div class="layer">
-                        <h3>Music App</h3>
-                        <p>The App connects youto the talented people around the world.
-                            Download it from play store.</p>
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        <h3>E-Shopping Cart</h3>
+                        <p>Django-based e-commerce site with secure checkout and optimized ORM (Dec 2023–Feb 2024).</p>
+                        <a href="https://github.com/Pawanverma9660/mcart" target="_blank"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="data/images/work-3.png" alt="image">
+                    <img src="data/images/work-3.png" alt="work">
                     <div class="layer">
-                        <h3>Online Shopping App</h3>
-                        <p>The App connects youto the talented people around the world.
-                            Download it from play store.</p>
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        <h3>Sales Analytics API</h3>
+                        <p>FastAPI project to upload and analyze sales data from CSVs.</p>
+                        <a href="https://github.com/Pawanverma9660/fastapi-sales-analytics" target="_blank"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
             </div>
-
-            <a href="#" class="btn">See more</a>
+            <a href="https://github.com/Pawanverma9660?tab=repositories" class="btn">See more</a>
         </div>
     </div>
 
     <!-- ---------------Contact------------ -->
-
     <div id="contact">
         <div class="container">
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i>pawan2017cht@gmail.com</p>
-                    <p><i class="fa-solid fa-phone"></i>+916207198386</p>
+                    <p><i class="fa-solid fa-paper-plane"></i>kr.pawanverma.contact@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 6207198386</p>
                     <div class="social-icon">
-                        <a href="https://www.facebook.com/profile.php?id=100063548405862" target="_blank"><i
-                                class="fab fa-facebook"></i></a>
-                        <a href="https://instagram.com/pawan_v.erma?igshid=NjIwNzIyMDk2Mg==" target="_blank"><i
-                                class="fab fa-instagram-square"></i></a>
-                        <a href="https://www.linkedin.com/in/pawan-kumar-bb858b215" target="_blank"><i
-                                class="fab fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/pawan-python-developer/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Pawanverma9660" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://instagram.com/pawan_v.erma" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100063548405862" target="_blank"><i class="fab fa-facebook"></i></a>
                     </div>
-                    <a href="data/images/My_Resume_Pawan.pdf" download class="btn btn2">Download CV</a>
+                    <a href="data/images/Resume-Pawan.pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="Email" placeholder="Your Email" required>
-                        <textarea name="Message" id="" cols="30" rows="6" placeholder="Your Message"></textarea>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
                     </form>
                     <span id="msg"></span>
@@ -194,13 +175,12 @@
             </div>
         </div>
         <div class="copyright">
-            <p>Cpoyright @ Pawan <i class="fa-solid fa-heart"></i>. 2023-2024</p>
+            <p>&copy; 2023-2024 Pawan Kumar. Made with <i class="fa-solid fa-heart"></i></p>
         </div>
     </div>
 
-
+    <!-- Scripts -->
     <script>
-
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
 
@@ -211,50 +191,29 @@
             for (tabcontent of tabcontents) {
                 tabcontent.classList.remove("active-tab");
             }
-
-            event.currentTarget.classList.add("active-link")
-            document.getElementById(tabname).classList.add("active-tab")
-
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
         }
-
-    </script>
-    <script>
 
         var sidemeu = document.getElementById("sidemenu");
+        function openmenu() { sidemeu.style.right = "0"; }
+        function closemenu() { sidemeu.style.right = "-150px"; }
 
-        function openmenu() {
-            sidemeu.style.right = "0";
-
-        }
-        function closemenu() {
-            sidemeu.style.right = "-150px";
-
-        }
-
-    </script>
-
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbw2OwkPxkSPISkVsBfYB7Q8VQU4H__RCBkaRJHDINW9UzOFb9ln7GhZ3miwZpe23pqAzw/exec'
-        const form = document.forms['submit-to-google-sheet']
-
-        const msg = document.getElementById("msg")
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw2OwkPxkSPISkVsBfYB7Q8VQU4H__RCBkaRJHDINW9UzOFb9ln7GhZ3miwZpe23pqAzw/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
 
         form.addEventListener('submit', e => {
-            e.preventDefault()
+            e.preventDefault();
             fetch(scriptURL, { method: 'POST', body: new FormData(form) })
                 .then(response => {
-                    msg.innerHTML = "Message Sent Successfully"
-                    setTimeout(function () {
-                        msg.innerHTML = ""
-                    }, 5000)
-                    form.reset()
-
+                    msg.innerHTML = "Message Sent Successfully";
+                    setTimeout(() => msg.innerHTML = "", 5000);
+                    form.reset();
                 })
-                .catch(error => console.error('Error!', error.message))
-        })
+                .catch(error => console.error('Error!', error.message));
+        });
     </script>
-
-
 </body>
 
 </html>
